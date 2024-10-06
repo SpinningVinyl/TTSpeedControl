@@ -4,6 +4,8 @@
 
 This repository contains the source code for my turntable speed control project. The scope of the project was to design an oscillator board that could be used instead of the XR2206-based analogue oscillator in the [Nigel's Speed Controller](https://www.lencoheaven.net/forum/index.php?topic=13981.0).
 
+This project uses the [Arduino AD9833 Library by Bill Williams](https://github.com/Billwilliams1952/AD9833-Library-Arduino).
+
 To build an oscillator, you would need the following parts:
 
 - Arduino Nano V3 clone;
