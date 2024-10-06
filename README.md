@@ -54,7 +54,7 @@ The main downside of the AD9833 is that the output ampltude for sine wave is onl
 
 ## User interface
 
-The user interface is extremely simple. When the oscillator is first powered on, it initialises the built-in EEPROM using the default frequency values (50Hz for 33.3 RPM and 67.5Hz for 45RPM). Press the button (either the built-in button in the rotary encoder or the separate button if you're using one) to switch between 33 and 45 RPM. Rotating the rotary encoder changes the frequency. To avoid wearing out the flash memory prematurely, the controller waits 5s after writing the new frequency values, and they're written only if the new value is not equal to the old one. 
+The user interface is extremely simple. When the oscillator is first powered on, it initialises the built-in EEPROM using the default frequency values (50Hz for 33.3 RPM and 67.5Hz for 45RPM). Press the button (either the built-in button in the rotary encoder or the separate button if you're using one) to switch between 33 and 45 RPM. Rotating the rotary encoder changes the frequency. To avoid wearing out the flash memory prematurely, the controller waits 5s before writing the new frequency values, and they're written only if the new value is not equal to the old one. 
 
 ## License etc.
 
